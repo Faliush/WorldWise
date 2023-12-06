@@ -5,10 +5,10 @@ import { CitiesProvider } from "./contexts/CitiesContext";
 import { AuthProvider } from "./contexts/FakeAuthContext";
 import ProtectedRoute from "./pages/ProtectedRoute";
 
+import Form from "./components/Form";
 import CityList from "./components/CityList";
 import CountryList from "./components/CountriesList";
 import City from "./components/City";
-import Form from "./components/Form";
 import SpinnerFullPage from "./components/SpinnerFullPage";
 
 const Homepage = lazy(() => import("./pages/Homepage"));
